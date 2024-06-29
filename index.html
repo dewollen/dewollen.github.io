@@ -6,15 +6,40 @@
     <title>Politique de protection des données personnelles</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f7f9fc;
+            color: #333;
             line-height: 1.6;
-            margin: 20px;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 8px;
         }
         h1, h2 {
-            color: #333;
+            color: #2c3e50;
+            font-weight: 300;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #e74c3c;
+            padding-bottom: 5px;
         }
         p {
             margin: 10px 0;
+            font-size: 1em;
+            color: #555;
         }
         ul {
             margin: 10px 0;
@@ -22,57 +47,74 @@
         }
         li {
             margin: 5px 0;
+            font-size: 1em;
+            color: #555;
         }
         hr {
             margin: 20px 0;
+            border: none;
+            border-top: 1px solid #eee;
+        }
+        a {
+            color: #e74c3c;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .last-updated {
+            color: #95a5a6;
+            font-size: 0.9em;
         }
     </style>
 </head>
 <body>
-    <h1>Politique de protection des données personnelles</h1>
-    <hr>
-    <p>Dernière mise à jour : 20/04/2024</p>
-    <p>Nous accordons une grande importance à la protection de vos données personnelles. Cette politique de confidentialité vise à vous informer sur la manière dont nous collectons, utilisons et protégeons vos informations lorsque vous utilisez notre application de compagnon de voyage ("l'application").</p>
-    <h2>1. Collecte des données personnelles</h2>
-    <p>Lors de la création d'un compte sur notre application, nous collectons les informations suivantes :</p>
-    <ul>
-        <li>Votre nom</li>
-        <li>Votre adresse e-mail</li>
-        <li>Votre photo de profil (optionnelle)</li>
-        <li>Les informations nécessaires pour créer un voyage, telles que le lieu, la durée et les participants invités</li>
-    </ul>
-    <p>De plus, pendant la durée de votre voyage, l'application peut collecter les données suivantes :</p>
-    <ul>
-        <li>Les photos que vous choisissez de télécharger quotidiennement</li>
-        <li>Les notes que vous rédigez sur votre journée</li>
-    </ul>
-    <h2>2. Utilisation des données personnelles</h2>
-    <p>Nous utilisons vos données personnelles dans le but de fournir les fonctionnalités de notre application, notamment :</p>
-    <ul>
-        <li>Créer et gérer vos voyages</li>
-        <li>Faciliter la communication entre les participants d'un voyage</li>
-        <li>Envoyer des notifications pour encourager la contribution quotidienne de photos et de notes</li>
-        <li>Partager les contenus téléchargés avec les autres participants du voyage</li>
-    </ul>
-    <p>Nous ne partageons pas vos données personnelles avec des tiers sans votre consentement explicite, sauf dans les cas suivants :</p>
-    <ul>
-        <li>Si cela est nécessaire pour fournir les services de l'application (par exemple, avec nos prestataires de services tiers)</li>
-        <li>Si cela est exigé par la loi ou par une autorité gouvernementale compétente</li>
-    </ul>
-    <h2>3. Protection des données personnelles</h2>
-    <p>Nous prenons des mesures de sécurité appropriées pour protéger vos données personnelles contre tout accès non autorisé, utilisation abusive ou divulgation. Cependant, veuillez noter qu'aucune méthode de transmission sur Internet ou de stockage électronique n'est totalement sécurisée, et nous ne pouvons garantir une sécurité absolue de vos données.</p>
-    <h2>4. Droits des utilisateurs</h2>
-    <p>Vous avez le droit de :</p>
-    <ul>
-        <li>Accéder à vos données personnelles que nous détenons</li>
-        <li>Demander la correction de vos données personnelles si elles sont inexactes ou incomplètes</li>
-        <li>Demander la suppression de vos données personnelles</li>
-        <li>Vous opposer au traitement de vos données personnelles pour des motifs légitimes</li>
-    </ul>
-    <h2>5. Consentement</h2>
-    <p>En utilisant notre application, vous consentez à la collecte, à l'utilisation et à la divulgation de vos données personnelles telles que décrites dans cette politique de confidentialité.</p>
-    <h2>6. Contactez-nous</h2>
-    <p>Si vous avez des questions, des préoccupations ou des demandes concernant cette politique de confidentialité ou la manière dont nous traitons vos données personnelles, veuillez nous contacter à <a href="mailto:contact.bundly@gmail.com">contact.bundly@gmail.com</a>.</p>
-    <p>Nous nous réservons le droit de modifier cette politique de confidentialité à tout moment, donc veuillez la consulter régulièrement pour rester informé(e) de nos pratiques en matière de confidentialité.</p>
+    <div class="container">
+        <h1>Politique de protection des données personnelles</h1>
+        <hr>
+        <p class="last-updated">Dernière mise à jour : 20/04/2024</p>
+        <p>Nous accordons une grande importance à la protection de vos données personnelles. Cette politique de confidentialité vise à vous informer sur la manière dont nous collectons, utilisons et protégeons vos informations lorsque vous utilisez notre application de compagnon de voyage ("l'application").</p>
+        <h2>1. Collecte des données personnelles</h2>
+        <p>Lors de la création d'un compte sur notre application, nous collectons les informations suivantes :</p>
+        <ul>
+            <li>Votre nom</li>
+            <li>Votre adresse e-mail</li>
+            <li>Votre photo de profil (optionnelle)</li>
+            <li>Les informations nécessaires pour créer un voyage, telles que le lieu, la durée et les participants invités</li>
+        </ul>
+        <p>De plus, pendant la durée de votre voyage, l'application peut collecter les données suivantes :</p>
+        <ul>
+            <li>Les photos que vous choisissez de télécharger quotidiennement</li>
+            <li>Les notes que vous rédigez sur votre journée</li>
+        </ul>
+        <h2>2. Utilisation des données personnelles</h2>
+        <p>Nous utilisons vos données personnelles dans le but de fournir les fonctionnalités de notre application, notamment :</p>
+        <ul>
+            <li>Créer et gérer vos voyages</li>
+            <li>Faciliter la communication entre les participants d'un voyage</li>
+            <li>Envoyer des notifications pour encourager la contribution quotidienne de photos et de notes</li>
+            <li>Partager les contenus téléchargés avec les autres participants du voyage</li>
+        </ul>
+        <p>Nous ne partageons pas vos données personnelles avec des tiers sans votre consentement explicite, sauf dans les cas suivants :</p>
+        <ul>
+            <li>Si cela est nécessaire pour fournir les services de l'application (par exemple, avec nos prestataires de services tiers)</li>
+            <li>Si cela est exigé par la loi ou par une autorité gouvernementale compétente</li>
+        </ul>
+        <h2>3. Protection des données personnelles</h2>
+        <p>Nous prenons des mesures de sécurité appropriées pour protéger vos données personnelles contre tout accès non autorisé, utilisation abusive ou divulgation. Cependant, veuillez noter qu'aucune méthode de transmission sur Internet ou de stockage électronique n'est totalement sécurisée, et nous ne pouvons garantir une sécurité absolue de vos données.</p>
+        <h2>4. Droits des utilisateurs</h2>
+        <p>Vous avez le droit de :</p>
+        <ul>
+            <li>Accéder à vos données personnelles que nous détenons</li>
+            <li>Demander la correction de vos données personnelles si elles sont inexactes ou incomplètes</li>
+            <li>Demander la suppression de vos données personnelles</li>
+            <li>Vous opposer au traitement de vos données personnelles pour des motifs légitimes</li>
+        </ul>
+        <h2>5. Consentement</h2>
+        <p>En utilisant notre application, vous consentez à la collecte, à l'utilisation et à la divulgation de vos données personnelles telles que décrites dans cette politique de confidentialité.</p>
+        <h2>6. Contactez-nous</h2>
+        <p>Si vous avez des questions, des préoccupations ou des demandes concernant cette politique de confidentialité ou la manière dont nous traitons vos données personnelles, veuillez nous contacter à <a href="mailto:contact.bundly@gmail.com">contact.bundly@gmail.com</a>.</p>
+        <p>Nous nous réservons le droit de modifier cette politique de confidentialité à tout moment, donc veuillez la consulter régulièrement pour rester informé(e) de nos pratiques en matière de confidentialité.</p>
+    </div>
 </body>
 </html>
